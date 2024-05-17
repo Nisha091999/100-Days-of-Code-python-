@@ -1,0 +1,12 @@
+names = names_string.split(", ")
+# names_string contains the input values provided. 
+# The code above converts the input into an array seperating
+# each name in the input by a comma and space.
+# 🚨 Don't change the code above 👆
+# print(names)
+import random
+
+length= len(names)
+name_ppl = random.randint(0,length -1)
+# print(names[name_ppl])
+print(f"{names[name_ppl]} is going to buy the meal today!")
